@@ -1,0 +1,75 @@
+GET http://localhost:8082/api/cinemas
+
+###
+
+GET http://localhost:8082/api/cinemas/4
+
+###
+
+POST http://localhost:8082/api/cinemas
+Content-Type: application/json
+
+{
+  "name": "NoweKinoooo",
+  "yearOfEstablishment": 1234,
+  "broadcastedFilms": "Fantasy"
+}
+
+###
+
+PUT http://localhost:8082/api/cinemas/2
+Content-Type: application/json
+
+{
+  "name": "ZmianaPutemNazwy"
+}
+
+###
+
+DELETE http://localhost:8082/api/cinemas/4
+
+###
+
+GET http://localhost:8082/api/films
+
+###
+
+GET http://localhost:8082/api/films/Fantasy
+
+###
+
+GET http://localhost:8082/api/films/Fantasyyyy
+
+###
+
+GET http://localhost:8082/api/films/Fantasy/cinemas
+
+###
+
+GET http://localhost:8082/api/films/Fantasy/cinemas/4
+
+
+###
+
+POST http://localhost:8082/api/films/
+Content-Type: application/json
+
+{
+  "title": "PostFilmTitle",
+  "category": "PostFilmCategory",
+  "precursor": "PostFilmPrecursor",
+  "popularity": 5
+}
+
+###
+
+PUT http://localhost:8082/api/films/Fantasy
+Content-Type: application/json
+
+{
+  "popularity": 9
+}
+
+###
+
+DELETE http://localhost:8082/api/films/Fantasy

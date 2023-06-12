@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="../styles.css"/>
+    <link rel="stylesheet" href="genre_view.css"/>
+    <script src="../script.js" defer="defer"></script>
+    <script type="module" src="genre_view.js" defer="defer"></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>
+            <div>
+                <img src="../film_strip.png"; align="left"><i>~ Cinemas and genres ~</i><img src="../film_strip.png"; align="right">
+            </div>
+        </h1>
+    </header>
+    <nav class="navigation-bar">
+        <ul>
+            <li><a href="../index.html">Main Page</a></li>
+            <li><a href="../genre_list/genre_list.html">Genres</a></li>
+            <li><a href="../file_list/file_list.html">Files</a></li>
+        </ul>
+    </nav>
+
+    <section class="main-section">
+        <article class="text--justified">
+            <header><h2 id="genre">Genre</h2></header>
+            <h3>Details</h3>
+            <div>
+                <label for="year_of_creation">Year of creation: </label><span id="year_of_creation">year_of_creation</span><br>
+                <label for="precursor">Precursor: </label><span id="precursor">precursor</span><br>
+                <label for="popularity">Popularity: </label><span id="popularity">popularity</span>
+            </div>
+            <section>
+                <h3>Cinemas</h3>
+                <table class="data-table">
+                    <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>name</th>
+                        <th>view</th>
+                        <th>edit</th>
+                        <th>delete</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                    <tr>
+                        <td>id</td>
+                        <td>name</td>
+                        <td><a href="#">view</a></td>
+                        <td><a href="#">edit</a></td>
+                        <td>
+                            <button class="ui-button ui-control">delete</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div id="newCin"></div>
+
+            </section>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <p>Agnieszka Delmaczynska - Web service architectures</p>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: pg.AUI_lab3_film.AuiLab1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.525 s <<< FAILURE! - in pg.AUI_lab3_film.AuiLab1ApplicationTests
+contextLoads  Time elapsed: 0.021 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initializedData': Invocation of init method failed; nested exception is org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8082/api/films": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8082/api/films": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+Caused by: java.net.ConnectException: Connection refused: connect
+

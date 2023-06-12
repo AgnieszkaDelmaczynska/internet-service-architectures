@@ -1,0 +1,13 @@
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\film\entity\Film.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\film\repository\FilmRepository.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\film\controller\FilmController.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\film\dto\GetFilmResponse.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\film\dto\PutFilmRequest.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\film\dto\PostFilmRequest.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\film\event\dto\PutFilmRequest.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\AuiLab1Application.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\film\event\dto\PostFilmRequest.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\film\event\repository\FilmEventRepository.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\film\dto\GetFilmsResponse.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\film\service\FilmService.java
+C:\Users\Agnieszka\IdeaProjects\AUI\AUI_lab3_film\src\main\java\pg\AUI_lab3_film\configuration\InitializedData.java

@@ -1,0 +1,28 @@
+GET http://localhost:8080/api/genres
+
+###
+
+POST http://localhost:8081/api/genres
+Content-Type: application/json
+
+{
+  "name": "Dermatologist",
+  "year_of_creation": 420
+}
+
+###
+
+PUT http://localhost:8080/api/genres/Radiologist
+Content-Type: application/json
+
+{
+  "year_of_creation": 420
+}
+
+###
+
+DELETE http://localhost:8080/api/genres/Anaesthetist
+
+###
+
+GET http://localhost:8080/api/genres

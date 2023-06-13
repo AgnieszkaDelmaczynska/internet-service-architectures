@@ -1,0 +1,51 @@
+version: '3.9'
+
+services:
+  gateway:
+    container_name: gateway
+    build: ./spring-rest-gateway
+    networks:
+      - network_1
+  gen:
+    container_name: gen
+    build: ./spring-rest-genre
+    networks:
+      - network_1
+  cin:
+    container_name: cin
+    build: ./spring-rest-cinema
+    networks:
+      - network_1
+  frontend:
+    container_name: frontend
+    build: ./frontend
+    networks:
+      - network_1
+  proxy:
+    container_name: proxy
+    build: ./proxy
+    ports:
+      - "80:80"
+    networks:
+      - network_1
+  filedb:
+    image: mariadb
+    environment:
+      - MARIADB_ROOT_PASSWORD=adminadmin
+      - MARIADB_DATABASE=file
+    networks:
+      - network_1
+      
+  file:
+    container_name: file
+    build: ./file
+    volumes:
+      - C:/Users/Agnieszka/IdeaProjects/AUI/aui6/file/src/main/resources/files:/files
+    ports:
+      - "9300:8084"
+    networks:
+      - network_1
+
+networks:
+  network_1:
+    driver: bridge

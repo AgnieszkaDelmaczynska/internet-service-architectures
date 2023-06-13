@@ -1,0 +1,46 @@
+GET http://localhost:8080/api/cinemas
+
+###
+
+DELETE http://localhost:8080/api/genres/Surgeon
+
+###
+
+GET http://localhost:8080/api/genres
+
+###
+
+POST http://localhost:8080/api/genres
+Content-Type: application/json
+
+{
+  "name": "Dermatologist",
+  "years_of_preparation": 420
+}
+
+###
+
+POST http://localhost:8080/api/cinemas
+Content-Type: application/json
+
+{
+  "name": "Jesse",
+  "genre": "Dermatologist"
+}
+
+###
+
+GET http://localhost:8080/api/genres/Dermatologist/cinemas
+
+###
+
+POST http://localhost:8080/api/genres/Surgeon/cinemas
+Content-Type: application/json
+
+{
+  "name": "Sokka",
+  "surname": "Baben",
+  "age": 23
+}
+
+###

@@ -1,0 +1,28 @@
+GET http://localhost:8081/api/genres/Surgeon/cinemas
+
+###
+
+POST http://localhost:8080/api/genres
+Content-Type: application/json
+
+{
+  "name": "Dermatologist",
+  "years_of_preparation": 420
+}
+
+###
+
+PUT http://localhost:8080/api/genres/Radiologist
+Content-Type: application/json
+
+{
+  "years_of_preparation": 420
+}
+
+###
+
+DELETE http://localhost:8080/api/genres/Anaesthetist
+
+###
+
+GET http://localhost:8080/api/genres

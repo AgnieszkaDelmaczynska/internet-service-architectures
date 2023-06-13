@@ -1,0 +1,17 @@
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\cinema\dto\PutCinemaRequest.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\genre\service\GenreService.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\genre\repository\GenreRepository.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\cinema\dto\GetCinemaResponse.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\cinema\service\CinemaService.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\cinema\entity\Cinema.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\cinema\dto\PostCinemaRequest.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\genre\dto\PostGenreRequest.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\cinema\controller\CinemaController.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\genre\controller\GenreController.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\cinema\dto\GetCinemasResponse.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\genre\entity\Genre.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\Lab1Application.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\cinema\dto\GetGenreResponse.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\cinema\controller\GenreCinemaController.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\cinema\dto\GetGenresResponse.java
+C:\Users\Agnieszka\IdeaProjects\AUI\aui5\spring-rest-cinema\src\main\java\com\spring\lab1\cinema\repository\CinemaRepository.java
